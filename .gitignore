@@ -1,0 +1,22 @@
+# FreeCAD
+*.FCBak
+*.fcstd1
+*.fcstd2
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated artifacts
+out/
+*.stl.tmp
+*.step.tmp
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

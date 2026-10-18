@@ -1,0 +1,10 @@
+# Проектный конфиг Codex CLI. Положить в <repo>/.codex/config.toml
+[mcp_servers.freecad]
+command = "uv"
+args = ["run", "--project", "/path/to/freecad-addon-robust-mcp-server", "freecad-mcp"]
+
+[mcp_servers.freecad.env]
+FREECAD_MODE = "xmlrpc"
+
+[projects."/path/to/repo"]
+trust_level = "trusted"
